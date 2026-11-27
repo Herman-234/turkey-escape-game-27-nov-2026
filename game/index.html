@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turkey's Great Escape — 18 Levels, 24 Corn Snacks, 8 Farm Friends</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1608; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #ffe9c4; text-align: center; }
+  h1 { margin: 14px 0 2px; font-size: 26px; color: #ffb347; letter-spacing: 1px; }
+  .sub { margin: 0 0 10px; font-size: 13px; color: #e8b06a; }
+  #wrap { display: inline-block; position: relative; }
+  canvas { display: block; width: 960px; max-width: 96vw; height: auto; background: #f7a94b;
+           border: 4px solid #7a3b12; border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.6); }
+  .help { max-width: 960px; margin: 10px auto 20px; font-size: 14px; line-height: 1.5; color: #ffd9a0; }
+  .help b { color: #fff; }
+</style>
+</head>
+<body>
+<h1>🦃 TURKEY'S GREAT ESCAPE</h1>
+<p class="sub">18 Levels &middot; 24 Corn Snacks &middot; 8 Farm Friends &middot; 21 Upgrades &middot; 6 Hiding Spots &mdash; outrun the farmer, dodge the oven &amp; the carving knife!</p>
+<div id="wrap"><canvas id="game" width="960" height="540"></canvas></div>
+<p class="help"><b>Space / &uarr; / Click</b> jump &nbsp;&bull;&nbsp; <b>Hold &darr; / H</b> hide in a haystack, barrel or bush when the farmer closes in &nbsp;&bull;&nbsp; <b>P</b> pause &nbsp;&bull;&nbsp; <b>R</b> restart &nbsp;&bull;&nbsp; Grab corn, dodge ovens, fences and carving knives, meet all 8 farm friends, and escape the farm through 18 levels &mdash; from the Farmyard to the Kitchen &mdash; before Thanksgiving dinner!</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
